@@ -1,0 +1,71 @@
+body{
+    margin: 0 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+  text-align: center;
+}
+.button1{
+        width: 300px;
+        padding: 10px;
+        background-color: rgb(66, 66, 111);
+        border-radius: 10px;
+        font-size: 1.2em;
+        color:lightgray;
+        text-align: center;
+        border: 1px groove gainsboro;
+}
+.mouseout{
+    width: 310px;
+    background-color: darkgray;
+    color: black;
+
+}
+input{
+    width: 380px;
+   padding: 10px;
+   font-size:15px;
+     text-align: left;
+     
+}
+#container{
+    width: 400px;
+    margin: 0 auto;
+  
+}
+label{
+    float: left;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 8px 0;
+   
+}
+a{
+    font-size: 13px;
+ display: flex;
+
+
+}
+span{
+    color: red;
+    font-size: 13px;
+    padding-right: 10px;
+    height: 20px;
+    
+}
+#lable-year{
+    
+    margin-left: -195px;
+}
+
+#input-year{
+  width: 70px;
+  margin: 70px 0 0 -225px;
+}
+#input-month{
+    width:150px;
+    margin-left: 10px;
+}
+#lable-month{
+    margin-left: -80px;
+}

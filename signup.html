@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="signup.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      span{
+      display:none;
+      }
+    </style>
+   
+</head>
+ <body>
+    <div id="container">
+     <div class="main">
+      <h1>Spotify</h1>
+        <h2>Sign up for free to start listening.</h2>
+          <button class="button1" id="but1">Sign up with Facebook</button><br><br>
+           <button class="button1" id="but2">Sign up with Google</button>
+    </div>
+    <br>
+     <div>
+         <form>
+    <label id="label1">What's your email?</label>
+      <input id="input1" type="email" placeholder="Enter your email">
+        <span id="span1">!You need to enter your email.</span>
+         <a href="#">Use phone number instead.</a>
+        <label id="p2">Confirm your email</label>
+      <input id="input2" type="email" placeholder="Enter your email again" required><br>
+      <span id="span2">!You need to confirm your email.</span>
+        <label>Create a password</label>
+        <input id="input3" type="text" placeholder="Create a password"><br>
+        <span id="span3"><b>!</b>You need to enter a password.</span>
+         <label>What should we call you?</label>
+         <input id="input4" type="text" placeholder="Enter a profile name.">
+          
+          <span id="span4"><b>!</b>Enter a name for your profile.</span> 
+          <label>What's your date of birth?</label><br>
+          <label id="lable-year">Year</label>
+          <label id="lable-month">Month</label>
+          <label>Day</label>
+          <input id="input-year" placeholder="YYYY" >
+          <input id="input-month" placeholder="Month" >
+          <input id="input-day" placeholder="DD" type="text" size="4">
+      </form>
+     </div>
+    </div>    
+  <script src="signup.js"></script>
+</body>
+</html> 
